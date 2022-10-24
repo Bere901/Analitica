@@ -1,4 +1,9 @@
-from numpy import mean
-arreglo = [17, 40, 50, 60, 70]
+from statistics import mean
+from statistics import mode
+from statistics import median
 
-mean(arreglo)
+arreglo = [19, 22, 34, 26, 32, 30, 24, 24]
+
+print(mean(arreglo))
+print(mode(arreglo))
+print(median(arreglo))
